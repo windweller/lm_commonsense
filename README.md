@@ -12,7 +12,7 @@ Authors and contact:
 Commonsense reasoning is a long-standing challenge for deep learning. For example,
 it is difficult to use neural networks to tackle the Winograd Schema dataset - a difficult subset of Pronoun Disambiguation problems. In this work, we use language models to score substitued sentences to decide the correct reference of the ambiguous pronoun (see Figure below for an example). 
 
-![Figure 1. Overview of our method.](method.jpg)
+![Figure 1. Overview of our method.](https://github.com/tensorflow/models/blob/master/research/lm_commonsense/method.jpg?raw=true)
 
 This simple unsupervised method achieves new state-of-the-art (*as of June 1st, 2018*) results on both benchmark PDP-60 and WSC-273 (See Table below), without using rule-based reasoning nor expensive annotated knowledge bases.
 
